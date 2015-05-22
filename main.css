@@ -1,0 +1,60 @@
+html {
+    background: #2c3e50;
+}
+
+#log {
+    color: #ecf0f1;
+    min-width: 10em;
+}
+
+.circle {
+    margin: 1em auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border: 0.3em solid rgba(255, 255, 255, 0.2);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: border-color 0.5s ease;
+    -webkit-animation: spin 1.1s infinite linear;
+    animation: spin 1.1s infinite linear;
+}
+.circle,
+.circle:after {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+
+.red {
+    border: 0.3em solid #e74c3c;
+}
+
+.green {
+    border: 0.3em solid #2ecc71;
+}
+
+.spinner {
+    border-left: 0.3em solid #ffffff;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
