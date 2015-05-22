@@ -10,6 +10,7 @@ creates an account, and signs you in to Reddit. After this process is done, the
 indicator in the popup turns green. If anything goes wrong (like Reddit rate
 limiting), the indicator turns red and an error message is displayed.
 
+![Screenshot][screenshot]
 
 License
 -------
@@ -18,3 +19,4 @@ Copyright (c) 2015 Anish Athalye. Released under the MIT License. See
 [LICENSE.md][license] for details.
 
 [license]: LICENSE.md
+[screenshot]: screenshot.png
