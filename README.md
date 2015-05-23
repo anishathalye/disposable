@@ -3,6 +3,8 @@ Disposable
 
 Create a Reddit throwaway account with the click of a button!
 
+Check out the [pre-built Chrome extension][download].
+
 The Disposable chrome extension automatically creates a Reddit throwaway
 accounts for you, making the whole process take all of two seconds. Once the
 button is clicked, the extension automatically chooses a username for you,
@@ -20,3 +22,4 @@ Copyright (c) 2015 Anish Athalye. Released under the MIT License. See
 
 [license]: LICENSE.md
 [screenshot]: screenshot.png
+[download]: https://chrome.google.com/webstore/detail/disposable/fpmgaihkdaipakaoammnokgjihdfpleo
